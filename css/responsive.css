@@ -1,0 +1,107 @@
+/* PC */ 
+
+@media (min-width: 1024px) {
+    
+}
+
+/* TABLET */
+
+@media (max-width: 1023px) and (min-width: 740px) {
+    #modal #modal-tickets {
+        width: 600px;
+    }
+
+    .border-content {
+        padding: 64px 40px;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 739px) {
+    /* header */
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header>#nav>li {
+        float: none;
+    }
+
+    #search-header {
+        display: none;
+    }
+
+    #menu-header {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #nav li a {
+        padding: 0 24px;
+        width: 100%;
+    }
+
+    /* Slider */
+
+    #slider #slider-content {
+        position: absolute;
+        bottom: 20px;
+        font-size: 12px;
+    }
+
+    #slider-content .big-content {
+        margin-bottom: 16px;
+    }
+
+    /* Content */
+
+    /* COMMOM */
+
+    .row-third {
+        width: 100%;
+    }
+
+    .row-half {
+        width: 100%;
+    }
+
+    /* ................ */
+
+    .tickets-of-tour {
+        margin-bottom: 16px;
+    }
+
+    .main-contact {
+        display: block;
+    }
+
+    .information-contact {
+        margin-bottom: 24px;
+    }
+
+    .text-and-email {
+        display: block;
+    }
+
+    .input-email {
+        margin-left: 0;
+        margin-top: 16px;
+    }
+
+    .information-input .btn-submit-contact,
+    .tickets-of-tour .btn-buy-ticket {
+        width: 100%;
+    }
+
+    .information-contact i {
+        line-height: 32px;
+    }
+
+    #modal #modal-tickets {
+        width: 320px;
+    }
+}
